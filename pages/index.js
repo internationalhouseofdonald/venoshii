@@ -15,10 +15,15 @@ export default function Home() {
           <div id="hero" className="w-100 pb-20">
             <div className="page absolute mx-auto rounded hidden">
               <div className="page-inner relative h-full mb-12 text-center border border-lime-400 rounded-lg">
-                <div className="header p-5 w-full border-b border-lime-300">
-                  <h1 className="text-7xl leading-none">Ensign</h1>
+                <div className="header p-5 w-full border-b border-lime-300 flex items-center justify-center">
+                  <h1 className="text-6xl leading-none uppercase tracking-widest whitespace-nowrap font-light opacity-70">
+                    Ensign
+                  </h1>
                 </div>
                 <div className="body p-5 w-full">
+                  <div className=" w-full flex justify-center">
+                    <img src="https://placehold.it/400x400" />
+                  </div>
                   <ul>
                     <li className="my-3">
                       The content area is updated using cookies to track the

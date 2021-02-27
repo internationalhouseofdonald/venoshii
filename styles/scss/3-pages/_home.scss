@@ -1,0 +1,43 @@
+html,
+body {
+  background-color: #111;
+}
+#bkgd {
+  position: fixed;
+  // background-color: #060606;
+  height: 100vh;
+  width: 100vw;
+  background: url(/assets/img/green-monster.jpeg);
+  background-size: cover;
+}
+#wrapper {
+  background-color: transparent;
+  color: white;
+}
+#hero {
+  .page {
+    width: 95vw;
+    max-width: 600px;
+    margin-top: 2vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    .page-inner {
+      overflow: hidden;
+      background-image: radial-gradient(circle, #11111188 0%, #111111ff 100%);
+      .header {
+        // background-color: #202020;
+        min-height: 6em;
+      }
+      .body {
+        // background-color: #202020;
+      }
+      .footer {
+        // background-color: #202020;
+        position: relative;
+        bottom: 0;
+      }
+    }
+  }
+}
